@@ -1,0 +1,15 @@
+.cart-widget {
+    text-decoration: none;
+}
+.cart-widget .cart-icon {
+    font-size: 18px;
+    color: #dfb580;
+    display: block;
+}
+.cart-widget .items {
+    background: #dfb580;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50%;
+    padding: 0px 5px;
+}

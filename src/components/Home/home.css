@@ -1,0 +1,28 @@
+.home {
+    background: #f3f0d7;
+    padding: 2em 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    line-height: 2em;
+}
+.home h1, .home span {
+    color: #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homeDos {
+    background: #fff;
+    padding-top: 3em;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    line-height: 2em;
+}

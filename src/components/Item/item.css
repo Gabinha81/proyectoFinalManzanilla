@@ -1,0 +1,35 @@
+.caja {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    display: block;
+    text-align: center;
+}
+.caja img {
+    width: 80%;
+}
+.caja h3 {
+    color: #000;
+}
+.caja p {
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+}
+.caja button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #fff;
+    background-color: #ff7878;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.caja button:hover {
+    opacity: 0.7;
+}

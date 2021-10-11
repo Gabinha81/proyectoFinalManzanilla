@@ -1,0 +1,41 @@
+.card-contador {
+    max-width: 300px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0b1d51;
+}
+.card-contador h5 {
+    text-align: justify;
+    padding: 10px 0px;
+}
+.card-contador p {
+    padding: 5px 0px;
+}
+.card-contador .grid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-contador .grid .column {
+    display: inline-block;
+    vertical-align: top;
+    font-size: medium;
+    text-align: left;
+}
+.card-contador .grid .product-subtract, .card-contador .grid .product-plus {
+    width: 15%;
+    border: none;
+    background-color: transparent;
+    color: #797596;
+    text-align: center;
+}
+.card-contador .grid .product-qty {
+    width: 15%;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    padding: 0.35em 0.75em;
+}
