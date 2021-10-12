@@ -47,7 +47,7 @@
     width: 300px;
     cursor: pointer;
 }
-@media screen and (max-width: 1820px) {
+@media screen and (max-width: 1024px) {
 
     .producto-detalle {  
         width: 50%;
@@ -70,9 +70,17 @@
 }
 @media screen and (max-width: 320px) {
     .producto-detalle {
+        width: 100%;
         display: block;
+        margin: 0 0 0 4em;
+
    }
     .producto-detalle .img-detalle {
-        width: 175px;
+        width: 80%;
+          
+   }
+   .producto-detalle .info-detalle .btn {
+       width: 250px;
+
    }
 }

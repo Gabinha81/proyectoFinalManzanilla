@@ -43,9 +43,30 @@ header .navbar .nav-menu .nav-link {
 header .navbar .nav-menu .nav.cart:hover, header .navbar .nav-menu .nav.cart:visited, header .navbar .nav-menu .nav.cart:link, header .navbar .nav-menu .nav.carta:active {
     text-decoration: none;
 }
-@media screen and (max-width: 650px) {
+
+@media screen and (max-width: 1024px){
+
+   header .navbar {
+    flex-direction: column;
+    font-size: 16px;
+    }
+    header .navbar .navbar-logo {
+        display: block;
+    }
+    header .navbar .navbar-logo img {
+        width: 20vw;
+    }
+    header .navbar .nav-menu {
+        width: 60em;
+    }
+    header .navbar .nav-menu .nav-link {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     header {
-        width: 100%;
+        width: 80em;
    }
     header .navbar {
         flex-direction: column;
@@ -58,7 +79,7 @@ header .navbar .nav-menu .nav.cart:hover, header .navbar .nav-menu .nav.cart:vis
         width: 20vw;
    }
     header .navbar .nav-menu {
-        width: 100%;
+        width: 60em;
    }
     header .navbar .nav-menu .nav-link {
         padding: 10px 10px;
@@ -67,9 +88,9 @@ header .navbar .nav-menu .nav.cart:hover, header .navbar .nav-menu .nav.cart:vis
 @media screen and (max-width: 320px) {
     header .navbar {
         flex-direction: column;
-        font-size: 14px;
-        width: 100%;
-        max-width: 350px;
+        font-size: 12px;
+        width: 100em;
+        max-width: 380px;
    }
     header .navbar .navbar-logo {
         display: block;
@@ -78,7 +99,7 @@ header .navbar .nav-menu .nav.cart:hover, header .navbar .nav-menu .nav.cart:vis
         width: 30vw;
    }
     header .navbar .nav-menu {
-        width: 100%;
+        width: 40em;
         flex-direction: column;
    }
 }
