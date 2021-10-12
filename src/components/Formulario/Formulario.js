@@ -12,7 +12,7 @@ const Formulario = ({ createOrder }) => {
         name: '',
         email: '',
         phone: '',
-       // emailConfirmation: ''
+       
     })
 
     const getContactData = (e) => {

@@ -12,8 +12,8 @@ import './cart.css';
 
 const Cart = () => {
     const {products, removeItem, totalProductos, clean} = useCartContext()
-    const [showForm, setShowForm] = useState(false)
     const [orderId, setOrderId] = useState("")
+    const [showForm, setShowForm] = useState(false)
     const [confirmation, setConfirmation] = useState(false)
     
     const handleRemove = (i) => {
@@ -57,7 +57,6 @@ const Cart = () => {
         
     }
 
-    
     
     if(products.length === 0 && orderId === ""){
         return (
